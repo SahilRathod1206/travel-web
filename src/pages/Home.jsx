@@ -497,18 +497,16 @@ export default function Home() {
                     <div className="col-md-6">
                       <div
                         className="form-floating date"
-                        id="date3"
+                        id="date"
                         data-target-input="nearest"
                       >
                         <input
                           type="text"
-                          className="form-control bg-transparent datetimepicker-input"
-                          id="datetime"
-                          placeholder="Date & Time"
-                          data-target="#date3"
-                          data-toggle="datetimepicker"
+                          className="form-control bg-transparent"
+                          id="date"
+                          placeholder="Date"
                         />
-                        <label htmlFor="datetime">Date &amp; Time</label>
+                        <label htmlFor="datetime">Date </label>
                       </div>
                     </div>
                     <div className="col-md-6">
