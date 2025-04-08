@@ -1,15 +1,3 @@
-$(function () {
-  $("#date3").datetimepicker({
-    icons: {
-      time: "far fa-clock",
-      date: "far fa-calendar-alt",
-      up: "fas fa-arrow-up",
-      down: "fas fa-arrow-down",
-      previous: "fas fa-chevron-left",
-      next: "fas fa-chevron-right",
-    },
-  });
-});
 
 (function ($) {
   "use strict";
